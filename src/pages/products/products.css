@@ -1,0 +1,111 @@
+/* General page styling */
+.products-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #004f77;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Category styling */
+.product-category {
+  margin-bottom: 3rem;
+}
+
+.category-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #004f77;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Product listing */
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-card {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-inner {
+  display: flex;
+  width: 100%;
+}
+
+.product-image {
+  padding: 20px;
+  height: 300px;
+  object-fit: cover;
+  border-right: 1px solid #e0e0e0;
+}
+
+.product-details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 200px);
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.add-to-cart-btn {
+  background-color: #004f77;
+  color: white;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #00374d;
+}
+
+/* No products message */
+.no-products {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}

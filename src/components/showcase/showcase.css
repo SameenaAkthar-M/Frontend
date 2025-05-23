@@ -1,0 +1,40 @@
+.showcase-content {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+  background-color: #0c384a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.left h1 {
+  font-size: 3rem;
+  color: #ffcc00; /* Dark blue color for the title */
+  margin-bottom: 1rem;
+}
+
+.left p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.show-image {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+

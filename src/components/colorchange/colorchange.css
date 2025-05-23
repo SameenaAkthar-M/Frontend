@@ -1,0 +1,107 @@
+.visualize-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #002244;
+  padding: 4rem 2rem;
+  gap: 2rem;
+}
+
+.visualizer-container {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.visualizer-heading {
+  font-size: 2rem;
+  color: #002244;
+  margin-bottom: 1.5rem;
+}
+
+.tile-svg {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+  background-color: #b5b5b5; /* Fallback color */
+  background-image: url('/back.jpeg'); /* Add your image URL here */
+  background-size: cover; /* Ensure the image covers the whole area */
+  background-position: center; /* Center the image */
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.color-palette {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.color-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #bbbbbb;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+  border-color: #ffcc00;
+}
+
+.content {
+  flex: 1;
+  min-width: 280px;
+  padding: 1rem;
+}
+
+.content h1 {
+  font-size: 2rem;
+  color: #002244;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #002244;
+  margin-bottom: 1.5rem;
+}
+
+.tile-g {
+  background-color: #ffcc00;
+  color: #002244;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tile-g:hover {
+  background-color: #e6b800;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .visualize-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .visualizer-heading,
+  .content h1 {
+    font-size: 1.6rem;
+  }
+
+  .content p {
+    font-size: 1re
+  }
+}

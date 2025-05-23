@@ -1,0 +1,112 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.formContainer {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Headers */
+.formHeader {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0c384a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formSubHeader {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Group */
+.inputGroup {
+  margin-bottom: 18px;
+}
+
+.inputField {
+  width: 370px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: #0c384a;
+}
+
+.inputFieldError {
+  border-color: red;
+}
+
+/* Role Dropdown */
+.roleDropdown {
+  background-color: #f9f9f9;
+  width: 370px;
+}
+
+/* Buttons */
+.submitButton, .switchButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton {
+  background-color: #0c384a;
+  color: #ffffff;
+}
+
+.submitButton:hover {
+  background-color: #092d3b;
+}
+
+.switchButton {
+  background-color: #e0e0e0;
+  color: #0c384a;
+}
+
+.switchButton:hover {
+  background-color: #d5d5d5;
+}
+
+/* Text Styles */
+.errorText {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.orText {
+  text-align: center;
+  margin: 16px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.msg {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+  font-weight: 500;
+}

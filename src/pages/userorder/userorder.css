@@ -1,0 +1,119 @@
+/* General container for orders page */
+.orders-page {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.orders-container {
+  max-width: 900px;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.orders-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.no-orders-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Each order card styling */
+.order-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+/* Styling for product list */
+.order-products ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Make each product a block-level element, taking full width */
+.order-products li {
+  margin-bottom: 1rem;
+  display: block; /* Ensures each product is on its own line */
+}
+
+/* Style for product title */
+.order-products strong {
+  color: #2c3e50;
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Styling for each product item (image + details) */
+.order-product-item {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  font-size: 1rem;
+  color: #333;
+}
+
+.product-details p {
+  margin: 0;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .orders-page {
+    padding: 1rem;
+  }
+
+  .orders-container {
+    padding: 1rem;
+  }
+
+  .orders-heading {
+    font-size: 1.8rem;
+  }
+
+  .order-card {
+    padding: 1rem;
+  }
+
+  .order-info p {
+    font-size: 0.9rem;
+  }
+
+  .order-products li {
+    font-size: 0.9rem;
+  }
+}
