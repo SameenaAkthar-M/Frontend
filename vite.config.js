@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     host: true, // Ensures Vite listens on all network interfaces
     allowedHosts: [
-      'https://backend-1-gogw.onrender.com', // Add your Render URL here
+      'backend-1-gogw.onrender.com', // Add your Render URL here
       'localhost', // Optionally allow localhost for local development
     ],
   },
