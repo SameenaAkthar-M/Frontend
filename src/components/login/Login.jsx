@@ -32,7 +32,7 @@ export const Login = () => {
 
         // Redirect based on role
         if (response.data.role === "admin") {
-          window.open("http://localhost:5174/products", "_blank");
+          window.open("https://sasen-admin.netlify.app/products", "_blank");
         } else {
           navigate("/");
           window.location.reload();
