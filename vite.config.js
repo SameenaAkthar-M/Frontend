@@ -11,4 +11,7 @@ export default defineConfig({
       'localhost', // Optionally allow localhost for local development
     ],
   },
+  build: {
+    outDir: 'dist'
+  }
 })
