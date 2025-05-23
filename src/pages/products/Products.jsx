@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useCart } from "../../context/CartContext.jsx";
 import { useNavigate } from "react-router-dom";
-import "./Products.css"; // Assuming you have a separate CSS file
+import "./products.css"; // Assuming you have a separate CSS file
 
 const Products = () => {
   const [products, setProducts] = useState({
